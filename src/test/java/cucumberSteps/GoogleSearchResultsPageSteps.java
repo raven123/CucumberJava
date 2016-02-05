@@ -41,5 +41,12 @@ public class GoogleSearchResultsPageSteps extends AbstractSteps {
 	}
 	
 
+	
+
+	@Then("^I get search results$")
+	public void i_get_search_results() throws Throwable {
+		Assert.assertTrue("No Search Results displayed",searchResultsPage.validateSearchResults());
+	    
+	}
 
 }

@@ -10,7 +10,7 @@ import cucumberSteps.DriverInstance;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/java/cucumberFeatures", glue = { "cucumberSteps" }, dryRun = false, plugin = {
-		"pretty", "html:src/test/resources/target/cucumber" },tags={"@basic"})
+		"pretty", "html:src/test/resources/target/cucumber" },tags={"~@basic"})
 public class TestRunner extends AbstractSteps {
 
 
