@@ -42,7 +42,7 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "I am on the home page of the application",
+  "name": "I am on the home page of the application as per \"\u003csearchParameter\u003e\"",
   "keyword": "Then "
 });
 formatter.examples({
@@ -67,7 +67,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "hero"
+        "Hero"
       ],
       "line": 13,
       "id": "testing-cucumber-features;basic;;3"
@@ -120,14 +120,17 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "I am on the home page of the application",
+  "name": "I am on the home page of the application as per \"Techcanvass\"",
+  "matchedColumns": [
+    0
+  ],
   "keyword": "Then "
 });
 formatter.match({
   "location": "GoogleHomePageSteps.i_am_on_google_home_page()"
 });
 formatter.result({
-  "duration": 13560075211,
+  "duration": 20936707436,
   "status": "passed"
 });
 formatter.match({
@@ -140,7 +143,7 @@ formatter.match({
   "location": "GoogleHomePageSteps.i_perform_search_using(String)"
 });
 formatter.result({
-  "duration": 662203619,
+  "duration": 3056733240,
   "status": "passed"
 });
 formatter.match({
@@ -153,7 +156,7 @@ formatter.match({
   "location": "GoogleSearchResultsPageSteps.i_get_search_results_for_the(String)"
 });
 formatter.result({
-  "duration": 135981,
+  "duration": 3681392280,
   "status": "passed"
 });
 formatter.match({
@@ -166,14 +169,20 @@ formatter.match({
   "location": "GoogleSearchResultsPageSteps.i_select_first_result_for_the(String)"
 });
 formatter.result({
-  "duration": 75871,
+  "duration": 7995637991,
   "status": "passed"
 });
 formatter.match({
-  "location": "GoogleSearchResultsPageSteps.i_am_on_the_home_page_of_the_application()"
+  "arguments": [
+    {
+      "val": "Techcanvass",
+      "offset": 49
+    }
+  ],
+  "location": "GoogleSearchResultsPageSteps.i_am_on_the_home_page_of_the_application(String)"
 });
 formatter.result({
-  "duration": 52047,
+  "duration": 3107890541,
   "status": "passed"
 });
 formatter.scenario({
@@ -197,7 +206,7 @@ formatter.step({
 });
 formatter.step({
   "line": 5,
-  "name": "I perform search using \"hero\"",
+  "name": "I perform search using \"Hero\"",
   "matchedColumns": [
     0
   ],
@@ -205,7 +214,7 @@ formatter.step({
 });
 formatter.step({
   "line": 6,
-  "name": "I get search results for the \"hero\"",
+  "name": "I get search results for the \"Hero\"",
   "matchedColumns": [
     0
   ],
@@ -213,7 +222,7 @@ formatter.step({
 });
 formatter.step({
   "line": 7,
-  "name": "I select first result for the \"hero\"",
+  "name": "I select first result for the \"Hero\"",
   "matchedColumns": [
     0
   ],
@@ -221,60 +230,69 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "I am on the home page of the application",
+  "name": "I am on the home page of the application as per \"Hero\"",
+  "matchedColumns": [
+    0
+  ],
   "keyword": "Then "
 });
 formatter.match({
   "location": "GoogleHomePageSteps.i_am_on_google_home_page()"
 });
 formatter.result({
-  "duration": 4254827312,
+  "duration": 4132185989,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "hero",
+      "val": "Hero",
       "offset": 24
     }
   ],
   "location": "GoogleHomePageSteps.i_perform_search_using(String)"
 });
 formatter.result({
-  "duration": 311881627,
+  "duration": 3180501259,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "hero",
+      "val": "Hero",
       "offset": 30
     }
   ],
   "location": "GoogleSearchResultsPageSteps.i_get_search_results_for_the(String)"
 });
 formatter.result({
-  "duration": 108125,
+  "duration": 4613935265,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "hero",
+      "val": "Hero",
       "offset": 31
     }
   ],
   "location": "GoogleSearchResultsPageSteps.i_select_first_result_for_the(String)"
 });
 formatter.result({
-  "duration": 45082,
+  "duration": 8239955943,
   "status": "passed"
 });
 formatter.match({
-  "location": "GoogleSearchResultsPageSteps.i_am_on_the_home_page_of_the_application()"
+  "arguments": [
+    {
+      "val": "Hero",
+      "offset": 49
+    }
+  ],
+  "location": "GoogleSearchResultsPageSteps.i_am_on_the_home_page_of_the_application(String)"
 });
 formatter.result({
-  "duration": 13195,
+  "duration": 3127664541,
   "status": "passed"
 });
 });

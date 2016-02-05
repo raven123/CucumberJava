@@ -42,7 +42,7 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "I am on the home page of the application",
+  "name": "I am on the home page of the application as per \"\u003csearchParameter\u003e\"",
   "keyword": "Then "
 });
 formatter.examples({
@@ -67,7 +67,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "hero"
+        "Hero"
       ],
       "line": 13,
       "id": "testing-cucumber-features;basic;;3"
@@ -120,14 +120,17 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "I am on the home page of the application",
+  "name": "I am on the home page of the application as per \"Techcanvass\"",
+  "matchedColumns": [
+    0
+  ],
   "keyword": "Then "
 });
 formatter.match({
   "location": "GoogleHomePageSteps.i_am_on_google_home_page()"
 });
 formatter.result({
-  "duration": 13377695513,
+  "duration": 20077139862,
   "status": "passed"
 });
 formatter.match({
@@ -140,7 +143,7 @@ formatter.match({
   "location": "GoogleHomePageSteps.i_perform_search_using(String)"
 });
 formatter.result({
-  "duration": 3098978496,
+  "duration": 3377109807,
   "status": "passed"
 });
 formatter.match({
@@ -153,7 +156,7 @@ formatter.match({
   "location": "GoogleSearchResultsPageSteps.i_get_search_results_for_the(String)"
 });
 formatter.result({
-  "duration": 168602,
+  "duration": 4108501537,
   "status": "passed"
 });
 formatter.match({
@@ -166,15 +169,12 @@ formatter.match({
   "location": "GoogleSearchResultsPageSteps.i_select_first_result_for_the(String)"
 });
 formatter.result({
-  "duration": 54246,
+  "duration": 8689244336,
   "status": "passed"
 });
-formatter.match({
-  "location": "GoogleSearchResultsPageSteps.i_am_on_the_home_page_of_the_application()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 19060,
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.scenario({
   "line": 13,
@@ -197,7 +197,7 @@ formatter.step({
 });
 formatter.step({
   "line": 5,
-  "name": "I perform search using \"hero\"",
+  "name": "I perform search using \"Hero\"",
   "matchedColumns": [
     0
   ],
@@ -205,7 +205,7 @@ formatter.step({
 });
 formatter.step({
   "line": 6,
-  "name": "I get search results for the \"hero\"",
+  "name": "I get search results for the \"Hero\"",
   "matchedColumns": [
     0
   ],
@@ -213,7 +213,7 @@ formatter.step({
 });
 formatter.step({
   "line": 7,
-  "name": "I select first result for the \"hero\"",
+  "name": "I select first result for the \"Hero\"",
   "matchedColumns": [
     0
   ],
@@ -221,60 +221,60 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "I am on the home page of the application",
+  "name": "I am on the home page of the application as per \"Hero\"",
+  "matchedColumns": [
+    0
+  ],
   "keyword": "Then "
 });
 formatter.match({
   "location": "GoogleHomePageSteps.i_am_on_google_home_page()"
 });
 formatter.result({
-  "duration": 4371843216,
+  "duration": 4180046035,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "hero",
+      "val": "Hero",
       "offset": 24
     }
   ],
   "location": "GoogleHomePageSteps.i_perform_search_using(String)"
 });
 formatter.result({
-  "duration": 2944004574,
+  "duration": 3038966694,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "hero",
+      "val": "Hero",
       "offset": 30
     }
   ],
   "location": "GoogleSearchResultsPageSteps.i_get_search_results_for_the(String)"
 });
 formatter.result({
-  "duration": 115822,
+  "duration": 3735636085,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "hero",
+      "val": "Hero",
       "offset": 31
     }
   ],
   "location": "GoogleSearchResultsPageSteps.i_select_first_result_for_the(String)"
 });
 formatter.result({
-  "duration": 82835,
+  "duration": 5050235126,
   "status": "passed"
 });
-formatter.match({
-  "location": "GoogleSearchResultsPageSteps.i_am_on_the_home_page_of_the_application()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 22358,
-  "status": "passed"
+  "status": "undefined"
 });
 });

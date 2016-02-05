@@ -9,11 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class GoogleHomePage {
-	
-	public final WebDriver driver;
-	public static WebDriverWait wait=null;
-	
+public class GoogleHomePage extends AbstractPage{
 	
 	public static final String URL="http://google.com";
 	
@@ -23,8 +19,7 @@ public class GoogleHomePage {
 	
 	public GoogleHomePage(WebDriver driver)
 	{
-		this.driver= driver;
-		wait = new WebDriverWait(driver,20);
+		super(driver);
 	}
 	
 	public void loadURL()
